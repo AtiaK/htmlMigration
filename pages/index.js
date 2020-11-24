@@ -3,12 +3,12 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div classNameName={styles.root}>
+    <div className={styles.root}>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div classNameName={styles.topHeader}>
+      <div className={styles.topHeader}>
       <div className="home__container-fluid">
             <div className="home__headerButtons">
                 <a className={styles.headerBtn } href="#"></a>
@@ -17,102 +17,102 @@ export default function Home() {
             </div>
         </div>
       </div>
-      <div classNameName={styles.mainHeader}>
-        <div classNameName="home__container-fluid">
-            <a classNameName={styles.brandLogo} href="#">Mimbbo</a>
-            <a classNameName={styles.user}href="#"><i classNameName="far fa-user"></i></a>
+      <div className={styles.mainHeader}>
+        <div className="home__container-fluid">
+            <a className={styles.brandLogo} href="#">Mimbbo</a>
+            <a className={styles.user}href="#"><i className="far fa-user"></i></a>
         </div>
       </div>
-      <section classNameName={styles.heroSection}>
-          <div classNameName="container-fluid">
-            <div classNameName="row">
-              <div classNameName="col-md-4 mx-auto">
-                <div classNameName={`${styles.searchArea} mt-4`}>
+      <section className={styles.heroSection}>
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-md-4 mx-auto">
+                <div className={`${styles.searchArea} mt-4`}>
                     <input className={styles.searchInput} type="text" name="" id="" placeholder="What's next?"/>
                     <i className="fas fa-search"></i>
                 </div>
               </div>
             </div>
-            <h1 classNameName={`${styles.mainHeading} mt-5`}>Most Viewed</h1>
-            <div classNameName="row">
-                <div classNameName={styles.boxesParent}>
+            <h1 className={`${styles.mainHeading} mt-5`}>Most Viewed</h1>
+            <div className="row">
+                <div className={styles.boxesParent}>
                     <div>
-                        <div classNameName={styles.smallBoxes}>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
+                        <div className={styles.smallBoxes}>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
                         </div>
-                        <div classNameName={styles.smallBoxes}>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
+                        <div className={styles.smallBoxes}>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
                         </div>
                     </div>
-                    <div classNameName={`${styles.bigBoxes} my-3 my-md-0`}>
-                        <div classNameName={styles.bigBox}></div>
+                    <div className=" my-3 my-md-0">
+                        <div className={`${styles.box} ${styles.bigBox}`}></div>
                     </div>
                     <div>
-                        <div classNameName={styles.smallBoxes}>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
+                        <div className={styles.smallBoxes}>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
                         </div>
-                        <div classNameName={styles.smallBoxes}>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
+                        <div className={styles.smallBoxes}>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
                         </div>
                     </div>
-                    <div classNameName={`${styles.bigBoxes} my-3 my-md-0`}>
-                        <div classNameName={styles.box ,styles.bigBox}></div>
+                    <div className=" my-3 my-md-0">
+                        <div className={`${styles.box} ${styles.bigBox}`}></div>
                     </div>
                   </div>
             </div>
-            <h1 classNameName={`${styles.mainHeading} mt-2`}>Most Faved</h1>
-            <div classNameName="row mt-4">
-                <div classNameName={styles.boxesParent}>
+            <h1 className={`${styles.mainHeading} mt-2`}>Most Faved</h1>
+            <div className="row mt-4">
+                <div className={styles.boxesParent}>
                     <div>
-                        <div classNameName={styles.smallBoxes}>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
+                        <div className={styles.smallBoxes}>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
                         </div>
-                        <div classNameName={styles.smallBoxes}>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
+                        <div className={styles.smallBoxes}>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
                         </div>
                     </div>
-                    <div classNameName={`${styles.bigBoxes} my-3 my-md-0`}>
-                        <div classNameName={styles.bigBox}></div>
+                    <div className=" my-3 my-md-0">
+                        <div className={`${styles.box} ${styles.bigBox}`}></div>
                     </div>
                     <div>
-                        <div classNameName={styles.smallBoxes}>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
+                        <div className={styles.smallBoxes}>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
                         </div>
-                        <div classNameName={`${styles.smallBox} border`}>
-                            <div classNameName={styles.box}></div>
-                            <div classNameName={styles.box}></div>
+                        <div className={styles.smallBoxes}>
+                            <div className={styles.box}></div>
+                            <div className={styles.box}></div>
                         </div>
                     </div>
-                    <div classNameName={`${styles.bigBoxes} my-3 my-md-0`}>
-                        <div classNameName={styles.bigBox}></div>
+                    <div className=" my-3 my-md-0">
+                        <div className={`${styles.box} ${styles.bigBox}`}></div>
                     </div>
                 </div>
             </div>
-            <a classNameName={`recently ${styles.mainHeading}`} href="#" data-toggle="modal" data-target="#exampleModalCenter">
+            <a className={`recently ${styles.mainHeading}`} href="#" data-toggle="modal" data-target="#exampleModalCenter">
                 Recently Booked
             </a>
           </div>
       </section>
-      <div  classNameName={`modal fade ${styles.myModal}`} id="exampleModalCenter" 
+      <div  className={`modal fade ${styles.myModal}`} id="exampleModalCenter" 
         tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-           <div classNameName="modal-dialog modal-lg modal-dialog-centered" role="document">
-              <div classNameName="modal-content">
-                    <div classNameName="modal-body">
-                        <div classNameName="row">
-                          <div classNameName="col-md-8">
-                              <div classNameName={styles.booking}>
-                                  <button classNameName={`btn btn-outline-success ${styles.bookButton}`} data-dismiss="modal">Book
+           <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
+              <div className="modal-content">
+                    <div className="modal-body">
+                        <div className="row">
+                          <div className="col-md-8">
+                              <div className={styles.booking}>
+                                  <button className={`btn btn-outline-success ${styles.bookButton}`} data-dismiss="modal">Book
                                       Now</button>
                               </div>
                           </div>

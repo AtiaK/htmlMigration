@@ -105,7 +105,12 @@
   margin-bottom: 0.7em;
 }
 
-.heroSection .box.bigBox {
+.heroSection .box .bigBox {
+  width: 14em;
+  height: 16.7em;
+}
+
+.bigBox{
   width: 14em;
   height: 16.7em;
 }
