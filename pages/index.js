@@ -27,7 +27,7 @@ export default function Home() {
           <div classNameName="container-fluid">
             <div classNameName="row">
               <div classNameName="col-md-4 mx-auto">
-                <div classNameName="searchArea mt-4">
+                <div classNameName={`${styles.searchArea} mt-4`}>
                     <input className={styles.searchInput} type="text" name="" id="" placeholder="What's next?"/>
                     <i className="fas fa-search"></i>
                 </div>
@@ -85,13 +85,13 @@ export default function Home() {
                         <div classNameName={styles.bigBox}></div>
                     </div>
                     <div>
-                        <div classNameName="smallBoxes">
-                            <div classNameName="box"></div>
-                            <div classNameName="box"></div>
+                        <div classNameName={styles.smallBoxes}>
+                            <div classNameName={styles.box}></div>
+                            <div classNameName={styles.box}></div>
                         </div>
-                        <div classNameName="smallBoxes">
-                            <div classNameName="box"></div>
-                            <div classNameName="box"></div>
+                        <div classNameName={`${styles.smallBox} border`}>
+                            <div classNameName={styles.box}></div>
+                            <div classNameName={styles.box}></div>
                         </div>
                     </div>
                     <div classNameName={`${styles.bigBoxes} my-3 my-md-0`}>
