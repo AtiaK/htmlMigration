@@ -105,7 +105,7 @@ export default function Home() {
           </div>
       </section>
       <div  className={`modal fade ${styles.myModal}`} id="exampleModalCenter" 
-        tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
            <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
               <div className="modal-content">
                     <div className="modal-body">

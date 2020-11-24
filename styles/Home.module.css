@@ -1,5 +1,5 @@
 .root {
-  --secondaryColor: lightgray;
+  --lightgray: lightgray;
   --primaryColor: black;
   --themeColor: green;
 }
@@ -18,7 +18,7 @@
 .headerBtn {
   height: 1.2em;
   width: 1.2em;
-  border: 1px solid var(--themeColor);
+  border: 1px solid green;
   border-radius: 50%;
   display: inline-block;
   text-decoration: none;
@@ -28,11 +28,11 @@
 .mainHeader {
   padding: 0.2em 1.5em;
   text-align: center;
-  border-bottom: 2px solid var(--secondaryColor);
+  border-bottom: 2px solid lightgray;
 }
 
 .mainHeader .brandLogo {
-  color: var(--themeColor);
+  color: green;
   font-size: 2.5em;
   font-weight: 600;
   text-decoration: none;
@@ -42,7 +42,7 @@
   height: 2.2em;
   width: 2.2em;
   border-radius: 50%;
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   display: inline-block;
   text-align: center;
   vertical-align: bottom;
@@ -52,7 +52,7 @@
 
 .mainHeader .user i {
   font-size: 1.3em;
-  color: var(--secondaryColor);
+  color: lightgray;
 }
 
 /* Hero Section */
@@ -61,11 +61,11 @@
 }
 
 .heroSection .searchInput {
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   border-radius: 0.4em;
   padding: 0.5em;
   width: 100%;
-  color: var(--primaryColor);
+  color:black;
   outline: none;
 }
 
@@ -77,7 +77,7 @@
   position: absolute;
   right: 0.3em;
   top: 0.3em;
-  color: var(--secondaryColor);
+  color: lightgray;
   font-size: 1.5em;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .mainHeading {
-  color: var(--primaryColor);
+  color: black;
   font-size: 1.5em;
   margin: 0.3em 0;
   padding-left: 0.4em;
@@ -95,7 +95,7 @@
 .box {
   height: 8em;
   width: 8em;
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   border-radius: 0.8em;
   margin-right: 1.5em;
 }
@@ -124,7 +124,7 @@
 
 /* Modal */
 .myModal .booking {
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   padding: 0.5em;
   height: 350px;
   border-radius: 0.8em;
@@ -135,23 +135,23 @@
   position: absolute;
   bottom: 0.5em;
   right: 0.5em;
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   border-radius: 0.4em;
 }
 
 .myModal .noteBox {
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   border-radius: 0.4em;
 }
 
 .myModal .modalText {
-  color: var(--primaryColor);
+  color: black;
   display: inline-block;
   margin-bottom: 1em;
 }
 
 .myModal .total {
-  border-top: 1px solid var(--primaryColor);
+  border-top: 1px solid black;
   padding: 0.7em 1em;
 }
 
@@ -168,7 +168,7 @@
 .dashboardSection .userImg {
   height: 3em;
   width: 3em;
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -177,11 +177,11 @@
 
 .dashboardSection .userImg i {
   font-size: 2em;
-  color: var(--secondaryColor);
+  color: lightgray;
 }
 
 .dashboardSection .userName {
-  color: var(--primaryColor);
+  color: black;
   font-size: 1.4em;
   display: inline-block;
   display: block;
@@ -189,7 +189,7 @@
 }
 
 .dashboardLinks .sideLinks {
-  color: var(--primaryColor);
+  color: black;
   display: block;
   margin-bottom: 1em;
   text-align: center;
@@ -197,18 +197,18 @@
 }
 
 .dashboardTwo .mainHeading {
-  border-bottom: 1px solid var(--secondaryColor);
+  border-bottom: 1px solid lightgray;
   padding-bottom: 1em;
 }
 
 .dashboardParent {
-  border: 2px solid var(--secondaryColor);
+  border: 2px solid lightgray;
   border-radius: 0.3em;
   margin-top: 1.8em;
 }
 
 .dashboardParent .borderCol {
-  border-right: 1px solid var(--secondaryColor);
+  border-right: 1px solid lightgray;
 }
 
 .dashboardTwo .mainText.text-center {
@@ -216,7 +216,7 @@
 }
 
 .dashboardSection .dashboardBox {
-  border: 2px solid var(--secondaryColor);
+  border: 2px solid lightgray;
   border-radius: 0.3em;
   padding: 1.3em 0 1.3em 1.3em;
 }
@@ -225,7 +225,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   border-radius: 0.8em;
   padding: 1.5em;
   margin-top: 2em;
@@ -255,7 +255,7 @@
 }
 
 .dashboardSection .dashboardTwo {
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   margin: 0.6em;
   padding: 1em;
   border-radius: 0.3em;
@@ -282,7 +282,7 @@
 }
 
 .todayList {
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid lightgray;
   border-radius: 0.3em;
   height: 750px;
   margin: 0.7em 0.7em 8em 0.7em

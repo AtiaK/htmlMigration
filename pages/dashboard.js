@@ -27,7 +27,7 @@ export default function dashboard() {
                     </div>
                     <div className={styles.dashboardParent}>
                         <div className="row">
-                            <div className="col-md-3 border">
+                            <div className="col-md-3">
                                 <div className={`${styles.dashboardLinks} mt-5`}>
                                     <a className={styles.sideLinks} href="#">Edit Profile</a>
                                     <a className={styles.sideLinks} href="#">Password</a>
@@ -37,44 +37,44 @@ export default function dashboard() {
                                     <a className={styles.sideLinks} href="#">Recent Activity</a>
                                 </div>
                             </div>
-                            <div className="col-md-9 border">
-                                <div className={`${styles.dashboardTwo} border`}>
-                                    <h1 className={`${styles.mainHeading} mt-0 border-bottom`}>Dashboard</h1>
+                            <div className="col-md-9">
+                                <div className={`${styles.dashboardTwo} `}>
+                                    <h1 className={`${styles.mainHeading} mt-0`}>Dashboard</h1>
                                     <div className="row mt-3">
                                         <div className="col-md-6">
-                                            <div className={`${styles.dashboardBox } border`}>
+                                            <div className={`${styles.dashboardBox } `}>
                                                 <div className={`${styles.mainText} text-center`}>Favorites</div>
                                                 <div className={`${styles.mainText} mt-2`}>This week</div>
                                                 <div className={`${styles.smallBoxes} mt-2`}>
-                                                    <div className={`${styles.box} border`}></div>
-                                                    <div className={`${styles.box} border`}></div>
-                                                    <div className={`${styles.box} border`}></div>
+                                                    <div className={`${styles.box}`}></div>
+                                                    <div className={`${styles.box} `}></div>
+                                                    <div className={`${styles.box} `}></div>
                                                 </div>
                                                 <div className={`${styles.mainText} mt-4`}>Goals</div>
                                                 <div className={`${styles.smallBoxes} mt-2`}>
-                                                    <div className={`${styles.box} border`}></div>
-                                                    <div className={`${styles.box} border`}></div>
-                                                    <div className={`${styles.box} border`}></div>
+                                                    <div className={`${styles.box} `}></div>
+                                                    <div className={`${styles.box} `}></div>
+                                                    <div className={`${styles.box} `}></div>
                                                 </div>
                                                 <div className={`${styles.mainText} mt-4`}>Next Style</div>
                                                 <div className={`${styles.smallBoxes} mt-2`}>
-                                                    <div className={`${styles.box} border`}></div>
-                                                    <div className={`${styles.box} border`}></div>
-                                                    <div className={`${styles.box} border`}></div>
+                                                    <div className={`${styles.box}`}></div>
+                                                    <div className={`${styles.box}`}></div>
+                                                    <div className={`${styles.box} `}></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-6 mt-4 mt-md-0 border">
+                                        <div className="col-md-6 mt-4 mt-md-0">
                                             <div className={`${styles.dashboardBox} pr-3 `}>
                                                 <div className={`${styles.mainText} text-center`}>My appointments</div>
                                                 <div className={styles.myAppoiment}>
-                                                    <div className={`${styles.myAppoimentBox} border`}>
+                                                    <div className={`${styles.myAppoimentBox}`}>
                                                         <div>
                                                             <div className={`${styles.mainText} mb-4`}>Wed, Dec 12, 2020</div>
                                                             <div className={styles.mainText}>Bantu knots</div>
                                                         </div>
                                                         <div>
-                                                            <div className={`${styles.box} mr-0 mb-2 border`}>
+                                                            <div className={`${styles.box} mr-0 mb-2`}>
                                                                 <div className={styles.mainText}>style</div>
                                                             </div>
                                                             <span className={`${styles.mainText} pr-5`}>2.5hrs</span>
